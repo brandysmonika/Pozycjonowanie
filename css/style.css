@@ -1,0 +1,128 @@
+/* Główne pojemnik - Start */
+
+.outer {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    position: absolute;
+    display: block;
+}
+
+/* Główne pojemnik - Stop */
+
+
+/* Właściwości dla każdego boxu - Start */
+
+.inner {
+    height: 30%;
+    width: 30%;
+    border: 2px solid white;
+    left: 0;
+    position: relative;
+    float: left;
+}
+
+/* Właściwości dla każdego boxu - Stop */
+
+/* Właściwości dla każdego koła - Start */
+
+.wheel {
+  height: 50%;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 75%;
+    transform: translate(50%, 50%);  
+}
+
+/* Właściwości dla każdego koła - Stop */
+
+
+/* Box - start */
+
+.inner:nth-child(1) {
+    background-color: red;
+}
+
+
+.inner:nth-child(2) {
+    background-color: blue;
+}
+
+
+.inner:nth-child(3) {
+    background-color: green;
+}
+
+
+.inner:nth-child(4) {
+    background-color: yellow;
+}
+
+
+.inner:nth-child(5) {
+    background-color: black;
+}
+
+
+.inner:nth-child(6) {
+    background-color: orange;
+}
+
+
+.inner:nth-child(7) {
+    background-color: violet;
+}
+
+
+.inner:nth-child(8) {
+    background-color: gray;
+}
+
+
+.inner:nth-child(9) {
+    background-color: pink;
+}
+
+/* Box - Stop */
+
+/* Kolor kół - Start */
+
+#color1 {
+    background-color: pink;
+}
+
+#color2 {
+    background-color: gray;
+}
+
+#color3 {
+    background-color: darkviolet;
+}
+
+#color4 {
+    background-color: green;
+}
+
+#color5 {
+    background-color: red;
+}
+
+#color6 {
+    background-color: blue;
+}
+
+#color7 {
+    background-color: orange;
+}
+
+#color8 {
+    background-color: yellow;
+}
+
+#color9 {
+    background-color: black;
+}
+
+/* Kolor kół - Stop */
+
+
